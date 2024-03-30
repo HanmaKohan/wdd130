@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?name&family=optional-2nd-font-name&display=swap');
+
+:root{
+    --primary-color: #afd5aa;
+    --second-color: #a44a3f;
+    --accent1-color: #235789;
+    --accent2-color: #f3a712;
+
+    --heading-font:  'Roboto', seraf;
+    --paragrapg-font: 'Montserrat', seraf;
+
+    --nav-background-color: #a44a3f;
+    --navigation-link-color: #f3a712;
+    --navigation-hover-link-color: #afd5aa;
+    --navigation-hover-background-color: #235789;
+
+}
+header nav a{
+    font-family: var(--heading-font);
+    color: var(--navigation-link-color);
+
+}
+article p{
+    margin-top: -900px;
+    font-family: var(--paragrapg-font);
+    color: white;
+    background-color: var(--second-color);
+    float: left;
+    clear: both;
+}
+
+.hero img{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h1{
+    position: absolute;
+    color: var(--navigation-hover-link-color);
+    margin-top: -1000px;
+    margin-left: 600px;
+    background-color: var(--accent1-color);
+    
+}
+
+h2{
+    color: var(--primary-color);
+}
+
+article{
+    position: absolute;
+}
+
+article img{
+    position: absolute;
+    float: right;
+    margin-top: -900px; 
+    max-width: 15%;
+}
+
+.sociallinks a{
+    text-decoration: none;
+}
+
+.sociallinks img{
+    margin: 100px;
+    max-width: 12%;
+}
