@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 130 |  HTML form - User Poll</title>
+    <meta name="description" content="Learning more about forms">
+    <meta name="author" content="Miguel Rodrigues de Carvalho">
+</head>
+<body>
+    <header>
+        <h1>WDD 130| Miguel Rodrigues de Carvalho | HTML Form - User Poll</h1>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label for="fullname">Full name</label>
+                <input type="text" id="fullname" name="fullname">
+                <label for="usermail">Email</label>
+                <input type="email" id="usermail" name="usermail">
+            </fieldset>
+
+            <fieldset>
+                <legend>Questions</legend>
+                <label for="browser">What is your browser?</label>
+                <select id="browser" name="fav_browser">
+                    <option value="Chrome">Google Chrome</option>
+                    <option value="Firefox">Mozilla Firefox</option>
+                    <option value="Bing">Microsoft Edge</option>
+                    <option value="Safari">Safari</option>
+                </select><br>
+
+                <label for="pet">Do you have a household pet?</label>
+                <input type="checkbox" id="pet" name="pet"><br>
+
+                <label for="feedback">List the places you have lived</label>
+                <textarea id="feedback" name="feedback" rows="4" placeholder="Recife Pernambuco, SãoVicente SãoPaulo, Okinawa Japan"></textarea>
+            </fieldset>
+            <button type="submit">Submit Poll</button>
+        </form>
+    </main>
+    <footer>©2024 | HTML Form - User Poll Acticvity| Miguel Rodrigues de Carvalho</footer>
+</body>
+</html>
