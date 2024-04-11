@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Form</title>
+    <meta name="description" content="Quiz form site">
+    <meta name="author" content="Miguel Rodrigues de Carvalho">
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+<header>
+    <h1>Basic Web Development Quiz</h1>
+</header>
+<body>
+    <form>
+        <label for="q1">1.What is the purpose of the tag &lt;div&gt; in html?</label><br>
+        <input type="text" id="q1" name="q1"><br>
+        <label for="q2">2.Why is important to use &lt;class&gt; in html?</label><br>
+        <textarea id="q2" name="q2" placeholder="Type here"></textarea><br><br>
+        <label for="q3">3.What option CANNOT be used in the CSS property &lt;display&gt;</label><br>
+        <select id="q3" name="q3">
+            <option value="" selected disabled>Chose one...</option>
+            <option value="wrong1">flex</option>
+            <option value="wrong2">block</option>
+            <option value="correct">2px solid red</option>
+            <option value="wrong3">grid</option>
+        </select><br><br>
+        <label for="q4">4.What is the bottom margin given this declaration?</label><br>
+        <p>margin: 10px 5px 15px</p>
+        <input type="number" id="q4" name="q4"><br><br>
+        <button type="submit">Submit Quiz</button>
+    </form>
+</body>
+</html>
